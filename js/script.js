@@ -14,6 +14,11 @@ var password = nomeUtente + cognomeUtente + colore + 20;
 // var anno = data.getFullYear();
 // var password = nomeUtente + ';' + cognomeUtente + ';' + colore + ';' + anno;
 
+/*ESERCIZIO BONUS 3*/
+// var data = new Date();
+// var anno = data.getFullYear();
+// var password = nomeUtente + ';' + cognomeUtente + ';' + colore + ';' + (anno - 2000);
+
 document.getElementById('nome-utente').innerHTML = nomeUtente;
 document.getElementById('cognome-utente').innerHTML = cognomeUtente;
 document.getElementById('colore').innerHTML = colore;
